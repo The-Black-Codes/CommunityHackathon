@@ -1,0 +1,35 @@
+/* FLYER SECTION */
+.flyer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+.flyer-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.flyer-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds subtle shadow */
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .flyer-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .flyer-section {
+    padding: 20px 10px;
+  }
+}
+
+  

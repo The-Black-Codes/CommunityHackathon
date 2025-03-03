@@ -1,0 +1,46 @@
+.footer {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    margin: 10px 0;
+  }
+
+  .footer-nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .sponsors {
+    font-style: italic;
+    margin-top: 5px;
+  }
+
+  .footer-socials {
+    margin-top: 10px;
+  }
+
+  .footer-socials a {
+    color: #1da1f2; /* Twitter blue */
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .footer-socials a:hover {
+    text-decoration: underline;
+  }
